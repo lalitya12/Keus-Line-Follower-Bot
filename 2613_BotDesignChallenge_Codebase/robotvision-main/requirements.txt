@@ -1,0 +1,19 @@
+# ── Common dependencies (both recognize_clip.py and recognize_mobilenet.py) ──
+ultralytics
+paddleocr
+paddlepaddle
+torch
+torchvision
+opencv-python-headless
+Pillow
+numpy
+pyzbar
+face_recognition
+
+# ── Dashboard ──
+flask
+flask-socketio
+python-socketio[client]
+
+# ── Additional dependency for recognize_clip.py only ──
+open_clip_torch
